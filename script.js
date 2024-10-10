@@ -26,3 +26,15 @@ let count_down = setInterval(function() {
     }
     timer -= 1;
 }, 1000);
+
+// delete random numbers
+
+setTimeout(delete_nmbrs, 31000);
+
+function delete_nmbrs() {
+    document.getElementById('random_number_1').innerHTML = null;
+    document.getElementById('random_number_2').innerHTML = null;
+    document.getElementById('random_number_3').innerHTML = null;
+    document.getElementById('random_number_4').innerHTML = null;
+    document.getElementById('random_number_5').innerHTML = null;
+}
