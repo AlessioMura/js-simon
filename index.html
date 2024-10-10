@@ -10,32 +10,40 @@
 </head>
 
 <body>
-    <div id="random_number_1"></div>
-    <div id="random_number_2"></div>
-    <div id="random_number_3"></div>
-    <div id="random_number_4"></div>
-    <div id="random_number_5"></div>
-    <div id="count_down"></div>
-
-    <div id="input_box_1" class="mb-3 d-none">
-        <label for="input_num_1" class="form-label">Number 1</label>
-        <input type="number" class="form-control" id="input_num_1">
+    <div class="container">
+        <div class="row">
+            <div class="col" id="random_number_1"></div>
+            <div class="col" id="random_number_2"></div>
+            <div class="col" id="random_number_3"></div>
+            <div class="col" id="random_number_4"></div>
+            <div class="col" id="random_number_5"></div>
+        </div>
+        <div class="row">
+            <div id="input_box_1" class="mb-3 col text-center d-none">
+                <label id="label_1" for="input_num_1" class="form-label">Number 1</label>
+                <input type="text" class="form-control" id="input_num_1">
+            </div>
+            <div id="input_box_2" class="mb-3 col text-center d-none">
+                <label id="label_2" for="input_num_2" class="form-label">Number 2</label>
+                <input type="text" class="form-control" id="input_num_2">
+            </div>
+            <div id="input_box_3" class="mb-3 col text-center d-none">
+                <label id="label_3" for="input_num_3" class="form-label">Numer 3</label>
+                <input type="text" class="form-control" id="input_num_3">
+            </div>
+            <div id="input_box_4" class="mb-3 col text-center d-none">
+                <label id="label_4" for="input_num_4" class="form-label">Number 4</label>
+                <input type="text" class="form-control" id="input_num_4">
+            </div>
+            <div id="input_box_5" class="mb-3 col text-center d-none">
+                <label id="label_5" for="input_num_5" class="form-label">Number 5</label>
+                <input id="input_num_5" type="text" class="form-control">
+            </div>
+        </div>
     </div>
-    <div id="input_box_2" class="mb-3 d-none">
-        <label for="input_num_2" class="form-label">Number 2</label>
-        <input type="number" class="form-control" id="input_num_2">
-    </div>
-    <div id="input_box_3" class="mb-3 d-none">
-        <label for="input_num_3" class="form-label">Numer 3</label>
-        <input type="number" class="form-control" id="input_num_3">
-    </div>
-    <div id="input_box_4" class="mb-3 d-none">
-        <label for="input_num_4" class="form-label">Number 4</label>
-        <input type="number" class="form-control" id="input_num_4">
-    </div>
-    <div id="input_box_5" class="mb-3 d-none">
-        <label for="input_num_5" class="form-label">Number 5</label>
-        <input type="number" class="form-control" id="input_num_5">
+    <div class="text-center">
+        <div class="col" id="count_down"></div>
+        <button id="submit_btn" type="button" class="button col-3 rounded">Submit</button>
     </div>
 
 
